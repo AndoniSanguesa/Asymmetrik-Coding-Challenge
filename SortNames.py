@@ -11,7 +11,7 @@ namesList.sort()
 
 with open("SortedNames", "w") as sn:
     for name in namesList:
-        sn.write(name)
+        sn.write(name.lower())
     sn.close()
 
 print(namesList)
