@@ -1,6 +1,7 @@
 import re
 from ContactInfo import ContactInfo
 
+
 class BusinessCardParser:
     def __init__(self, inputDocument):
         self.phone_number_re = [re.compile(r'd{3}\W\d{3}\W\d{4}'), re.compile(r'\W\d{3}\W\s\d{3}\s\d{4}'),

@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AssymetrikCodingChallenge.py" beforeDir="false" afterPath="$PROJECT_DIR$/AssymetrikCodingChallenge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BusinessCardParser.py" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessCardParser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContactInfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ContactInfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SortNames.py" beforeDir="false" afterPath="$PROJECT_DIR$/SortNames.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +177,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582234932734</updated>
       <workItem from="1582234934751" duration="614000" />
-      <workItem from="1582332790019" duration="11817000" />
+      <workItem from="1582332790019" duration="12696000" />
     </task>
     <task id="LOCAL-00001" summary="Final Efficiency Improvement">
       <created>1582399240576</created>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582399240576</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Comments">
+      <created>1582399822889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582399822889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +201,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Final Efficiency Improvement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Efficiency Improvement" />
+    <MESSAGE value="Added Comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Comments" />
   </component>
   <component name="WindowStateProjectService">
     <state x="601" y="137" key="#Buisness_Card_OCR" timestamp="1582332864077">
@@ -205,10 +213,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1128" y="400" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1582323238403" />
-    <state x="488" y="134" key="CommitChangelistDialog2" timestamp="1582399293842">
+    <state x="488" y="134" key="CommitChangelistDialog2" timestamp="1582399821715">
       <screen x="0" y="0" width="1620" height="1080" />
     </state>
-    <state x="488" y="134" key="CommitChangelistDialog2/0.0.1620.1080@0.0.1620.1080" timestamp="1582399293842" />
+    <state x="488" y="134" key="CommitChangelistDialog2/0.0.1620.1080@0.0.1620.1080" timestamp="1582399821715" />
     <state x="578" y="134" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1582293443415" />
     <state x="734" y="571" key="FileChooserDialogImpl" timestamp="1582293386756">
       <screen x="0" y="0" width="1920" height="1080" />

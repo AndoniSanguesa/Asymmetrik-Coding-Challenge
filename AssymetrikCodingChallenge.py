@@ -1,11 +1,13 @@
 from BusinessCardParser import BusinessCardParser
 import tkinter as tk
 
+
 # Updates the output text box with the information of the contact
 def updateOutput(thisContact):
     outputText.delete("1.0", "end")
     outputText.insert("1.0", "Name: " + thisContact.getName() + "\nPhone: " + thisContact.getPhoneNumber() + "\nEmail: " +
                       thisContact.getEmailAddress())
+
 
 # Handles button press by taking input text and passing it to the BuisnessCardParser
 def submit():
@@ -17,6 +19,7 @@ def submit():
         inp.close()
     thisContact = BusinessCardParser("input").getContact()
     updateOutput(thisContact)
+
 
 # Creates the tkinter main window
 mainWin = tk.Tk()
