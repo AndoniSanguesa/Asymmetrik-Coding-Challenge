@@ -13,19 +13,21 @@ class BusinessCardParser:
         self.names = set([])
         self.contact = None
 
+        # Adds all names from the SortedNames dataset to a set
         with open("SortedNames") as sn:
             aName = sn.readline()
             while aName:
                 self.names.add(aName.replace("\n", ""))
                 aName = sn.readline()
 
+        # Checks each line to see if it contains a name, phone number or email
         with open(inputDocument) as inp:
             lines = inp.readlines()
 
             for line in lines:
-                self.name = self.containsName(line)
-                self.phone = self.containsPhoneNumber(line)
-                self.email = self.containsEmail(line)
+                self.name = self.containsName(line) if self.name == "" else self.name
+                self.phone = self.containsPhoneNumber(line) if self.phone == "" else self.phone
+                self.email = self.containsEmail(line) if self.email == "" else self.email
             self.contact = ContactInfo(self.name, self.phone, self.email)
             inp.close()
 

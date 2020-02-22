@@ -1,5 +1,4 @@
 from BusinessCardParser import BusinessCardParser
-from ContactInfo import ContactInfo
 import tkinter as tk
 
 
