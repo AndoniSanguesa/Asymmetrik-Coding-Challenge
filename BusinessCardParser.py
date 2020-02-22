@@ -11,6 +11,8 @@ class BusinessCardParser:
         self.email = ""
         self.phone = ""
         self.names = set([])
+        self.contact = None
+
         with open("SortedNames") as sn:
             aName = sn.readline()
             while aName:
@@ -24,8 +26,7 @@ class BusinessCardParser:
                 self.name = self.containsName(line)
                 self.phone = self.containsPhoneNumber(line)
                 self.email = self.containsEmail(line)
-            contact = ContactInfo(self.name, self.phone, self.email)
-            contact.printInfo()
+            self.contact = ContactInfo(self.name, self.phone, self.email)
             inp.close()
 
     def containsName(self, inline):
@@ -50,3 +51,6 @@ class BusinessCardParser:
                 match = re.sub("[^0-9]", "", match)
                 return match
         return self.phone
+
+    def getContact(self):
+        return self.contact
